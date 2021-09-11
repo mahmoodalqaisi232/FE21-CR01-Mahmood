@@ -87,7 +87,7 @@ nav ul li{
 /*  End of Phone Image  */
 
 #maincontainer_images{
-    width: 1000px;
+    width: 100%;
     height: 250px;
     margin: auto;
     }
@@ -147,4 +147,20 @@ footer figcaption{
     margin-top: 4px;
     font-size: 12px;
     font-weight: normal;
+}
+nav a{
+    text-decoration: none;
+}
+nav a:link{
+    color: pink;
+}
+
+nav a:visited{
+    color: #fff
+}
+nav a:hover{
+    color: silver;
+}
+nav a:active{
+    color: yellow;
 }
