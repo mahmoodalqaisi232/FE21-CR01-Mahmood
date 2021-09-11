@@ -1,12 +1,12 @@
 * {
   margin: 0px;
   padding: 0px;
-  /*background-color: #070707;*/
   color: whitesmoke;
   font-family: "IBM Plex Sans", sans-serif;
 }
 header {
   background-color: #070707;
+  width: 100vw;
 }
 
 #div1 {
@@ -20,7 +20,7 @@ header {
   text-align: center;
   opacity: 0.9;
   top: 30px;
-  padding-left: 10px;
+  padding-left: 25px;
 }
 #nav {
   position: absolute;
@@ -28,6 +28,8 @@ header {
   height: 100px;
   top: 35px;
   right: 15px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 /* Links */
 #nav a:link {
@@ -49,9 +51,9 @@ header {
   margin-top: 5px;
   margin-left: 5px;
   display: inline;
-}
-#nav p:hover {
-}
+  }
+
+
 
 hr {
   position: relative;
@@ -71,7 +73,7 @@ main {
   /*background-color: #f6f7eb;*/
   margin-top: 30px;
 }
-
+/* Form Container */
 .container{
   position: absolute;
   background-color: #E6E6E6;
@@ -143,10 +145,9 @@ textarea{
 }
 
 
-
+/* Transition*/
 .boxescontainer {
   position: relative;
-  
   height: 130px;
   width: 100%;
 }
@@ -201,7 +202,8 @@ textarea{
 
 
 footer{
-  position: sticky;
+  position: relative;
+  
 }
 
 .footerdiv{
@@ -219,9 +221,3 @@ footer{
   padding-inline: 30px;
 }
 
-.map iframe{
-  margin-right: -50px;
-  width: 700px;
-  height: 120px;
-  border: 2px solid #F7F1F8;
-}

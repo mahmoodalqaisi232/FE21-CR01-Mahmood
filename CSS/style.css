@@ -152,15 +152,15 @@ nav a{
     text-decoration: none;
 }
 nav a:link{
-    color: pink;
+    color: #fff;
 }
 
 nav a:visited{
-    color: #fff
+    color: #fff;
 }
 nav a:hover{
     color: silver;
 }
 nav a:active{
-    color: yellow;
+    color: burlywood;
 }
